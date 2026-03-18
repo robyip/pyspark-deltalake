@@ -14,7 +14,7 @@ readlink -f $(which java)  # get the full real path
 
 **3. Set JAVA_HOME**
 
-The path is usually `/usr/lib/jvm/java-11-openjdk-amd64` or similar. Set it permanently by adding it to your `~/.bashrc`:
+The path is usually `/usr/lib/jvm/java-21-openjdk-amd64` or similar. Set it permanently by adding it to your `~/.bashrc`:
 
 ```bash
 echo 'export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64' >> ~/.bashrc
