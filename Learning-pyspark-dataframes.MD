@@ -8,7 +8,7 @@ Here's a structured breakdown of what to learn about PySpark DataFrames:
 **2. Basic Operations**
 - `show()`, `printSchema()`, `describe()`
 - `select()`, `filter()` / `where()`, `limit()`
-- `withColumn()`, `drop()`, `rename()`
+- `withColumn()`, `drop()`, `withColumnRenamed(old_name, new_name)`
 
 **3. Aggregations & Grouping**
 - `groupBy()` + `agg()` with functions like `sum()`, `count()`, `avg()`, `max()`, `min()`
