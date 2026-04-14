@@ -20,9 +20,11 @@ Then activate the virtual environment: `source .venv/bin/activate`
 
 Then install the dependencies: `pip install -r requirements.txt`
 
-Now you can run the notebooks: `jupyter notebook`
+You can run Python scripit with PySpark and Delta Lake code in the virtual environment by running the python script. For example: `python scripts/01-create-delta-table.py` 
 
-You might encounter JAVA_HOME or JVM errors. I worked through it using CLUADE ai.
+Or you can follow the Jupyter notebook tutorial on PySPark and Dataframes in the folder 'jupyter-pyspark' but first run `jupyter notebook` in the WSL2 terminal
+
+You might encounter JAVA_HOME or JVM errors. I worked through it using CLUADE ai. And I've put a file with some notes in this repo called 'install-and-config-java.md'
 
 **Learn Delta Lake through hands-on practice**
 
