@@ -8,8 +8,21 @@ Link to DataCamp: https://www.datacamp.com/courses/big-data-fundamentals-with-py
  
 
 **Set up a local environment quickly**
+To Learn PySpark, Delta Lake and DataFrames you can setup a local virtual enviroment in WSL2.
 
-You can install everything with `pip install pyspark delta-spark`, then configure your Spark session with Delta Lake-specific settings to enable SQL extensions. This means you can practice on your laptop without needing a cloud account.
+First clone the repo: https://github.com/robyip/pyspark-deltalake
+
+Then cd into the repo: `cd pyspark-deltalake`
+
+Then create a virtual environment: `python3 -m venv .venv`
+
+Then activate the virtual environment: `source .venv/bin/activate`
+
+Then install the dependencies: `pip install -r requirements.txt`
+
+Now you can run the notebooks: `jupyter notebook`
+
+You might encounter JAVA_HOME or JVM errors. I worked through it using CLUADE ai.
 
 **Learn Delta Lake through hands-on practice**
 
