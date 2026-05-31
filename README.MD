@@ -14,7 +14,8 @@ First clone the repo: https://github.com/robyip/pyspark-deltalake
 
 Then cd into the repo: `cd pyspark-deltalake`
 
-Then create a virtual environment: `python3 -m venv .venv`
+
+Then create a virtual environment: `python3 -m venv .venv` (If you don't have venv installed then now is maybe a good time otherwisw this will error)
 
 Then activate the virtual environment: `source .venv/bin/activate`
 
